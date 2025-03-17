@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Local Techno</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="website icon" type="png/jpg" href="TLT LOGO (2).png">
+    <script defer src="script.js"></script>
+</head>
+<body>
+        <header>
+            <nav class="navbar">
+                <div class="nav-left">
+            <img src="tlt logo nav .png" alt="The Local Techno Logo" class="nav-logo">
+            </div>
+                <h2 class="logo-text">The Local Techno</h2>
+                <div class="menu-toggle">☰</div> <!-- Hidden on large screens -->
+                <ul class="nav-links">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICE</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+    <!-- Hero Section -->
+    <section id="home" class="hero" style="background-color:  #0F2A3C;">
+        <div class="wrapper">
+            <div class="profile">
+                <img src="hero .png" alt="Hero Image">
+            </div>
+            <div class="intro">
+                <h2 style="color:rgb(245, 245, 245);">Innovative Solutions for the Tech World</h2>
+                <h5 style="color:rgb(255, 255, 255);">Your one-stop tech partner to elevate your business.</h5>
+                <a style="background-color: rgb(14, 127, 155);" href="#contact" class="cta-button">Get in Touch</a>
+                 </div>
+        </div>
+        
+        </div>
+    </section>
+
+      <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container" style="background-color: #0F2A3C;">
+            <h2 style="color: aliceblue;">About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 style="color: aliceblue;">Welcome to The Local Techno!</h2>
+                    <p style="color: aliceblue;">We are a technology company dedicated to providing innovative solutions in web development, mobile applications, and UI/UX design. Our mission is to help businesses grow by leveraging the latest technologies and design trends.</p>
+                    <p style="color: aliceblue;">Our team of experts works closely with clients to bring their ideas to life, ensuring that every project is not only functional but also visually appealing and user-friendly.</p>
+                </div>
+                <div class="about-image">
+                    <img src="about2.png" alt="About Us Image">
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <!-- Services Section -->
+    <section id="services" class="services" style="background-image: url(Service\ Last.jfif);">
+        <div class="container">
+            <h1 style="color: aliceblue;">Our Services</h1>
+            <div class="service-cards">
+                <div class="card">
+                    <h3>Web Development</h3>
+                    <p>Building responsive, fast, and beautiful websites that meet your needs.</p>
+                </div>
+                <div class="card">
+                    <h3>App Development</h3>
+                    <p>Developing seamless mobile experiences for your business and customers.</p>
+                </div>
+                <div class="card">
+                    <h3>Marketing</h3>
+                    <p>A business's Overall game planfor reaching prospectivee consumers and turing them into customers of their products .</p>
+                </div>
+                <div class="card">
+                    <h3>UI&UX Design</h3>
+                    <p>UI/UX design is the practice of crafting visually appealing and intuitive interfaces that prioritize a user's overall experience when interacting with a digital product.</p>
+                </div>
+                <div class="card">
+                    <h3>Consulting</h3>
+                    <p>Providing expert advice and strategies to optimize your tech infrastructure.Making success less puzzling.</p>
+                </div>
+            </div>
+        </div>
+        
+        
+           
+        
+    </section>
+
+
+   <!-- FAQ Section -->
+   <section id="faq" class="faq">
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>What services do you provide?</h3>
+            <p>We provide web and app development, UI/UX design, and consulting services to help businesses improve their digital presence.</p>
+        </div>
+        <div class="faq-item">
+            <h3>How long does a typical project take?</h3>
+            <p>The timeline depends on the scope of the project. For a website, it typically takes 2-4 weeks, and for mobile apps, it can range from 4-8 weeks.</p>
+        </div>
+        <div class="faq-item">
+            <h3>How can I get in touch with you?</h3>
+            <p>You can reach out to us through our contact form or directly via email at  contact @<a href="mailto:contact@thelocaltechno.com" style="color: black;">thelocaltechno.com</a></p>
+        </div>
+    </div>
+   
+</section>
+    <!-- Contact Section -->
+    <section id="contact" class="section hidden">
+        <center>
+        <h1>Contact Us</h1>
+        <p><a href="mailto:@thelocaltechno.com">Email: thelocaltechno@gamil.com</a></p>
+        <a href="tel:+91 9566533837" class="call-button">Call Us</a
+       
+
+       
+    </center>
+    </section>
+
+    
+    
+</body>
+</html>
